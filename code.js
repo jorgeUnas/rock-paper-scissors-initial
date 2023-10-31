@@ -17,6 +17,11 @@ function getComputerChoice(){
    return computerSelection;
 }
 
+//count the times everyone wins
+    
+let computerVictoriesNumber = 0;
+let playerVictoriesNumber = 0;
+
 
 function playRound(playerSelection, computerSelection){
     
