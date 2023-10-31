@@ -17,3 +17,16 @@ function getComputerChoice(){
    return computerSelection;
 }
 
+
+function playRound(playerSelection, computerSelection){
+    
+//get the user choice 
+do{
+
+playerSelection = prompt('Rock, paper or scissors?!').toLowerCase().trim();
+
+if(playerSelection != 'rock' & playerSelection != 'paper' & playerSelection != 'scissors'){
+alert('invalid option');
+}
+
+}while(playerSelection != 'rock' & playerSelection != 'paper' & playerSelection != 'scissors'); //Validate the user's choice 
